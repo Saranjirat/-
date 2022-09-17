@@ -2,7 +2,7 @@
 
 int main()
 {
-    float s[10];
+    float s[20];
     float x = 0;
     for (int i = 1; i < 11; i++)
     {
