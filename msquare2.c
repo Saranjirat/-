@@ -28,6 +28,10 @@ int main()
             sum = 0;
         }
     }
+    for (int i = 0; i < a; i++)
+    {
+        colum[i]=0;
+    }
     for (int i = 0;i < a*a;i++)
     {
         if ((i+1)%a!=0)
