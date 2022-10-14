@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-int Factorial(int f){
+int Factorial(int f)
+{
 	if(f == 0 || f == 1)
     {
 		return 1;
@@ -11,7 +12,8 @@ int Factorial(int f){
 	}
 }
 
-int main(){
+int main()
+{
 	int f;
 	printf("Input number : ");
 	scanf("%d",&f);
